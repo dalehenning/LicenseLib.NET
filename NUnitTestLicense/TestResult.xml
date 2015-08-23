@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\dev\test\TestLicense\NUnitTestLicense\NUnitTestLicense.nunit" total="16" failures="0" not-run="0" date="2011-02-26" time="13:04:38">
+  <environment nunit-version="2.4.1.0" clr-version="2.0.50727.3615" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Program Files\NUnit 2.4.1\bin" machine-name="DHENNING-LT" user="dhenning" user-domain="SDNCOM" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="C:\dev\test\TestLicense\NUnitTestLicense\NUnitTestLicense.nunit" success="True" time="0.219" asserts="0">
+    <results>
+      <test-suite name="C:\dev\test\TestLicense\NUnitTestLicense\bin\Release\NUnitTestLicense.dll" success="True" time="0.219" asserts="0">
+        <results>
+          <test-suite name="NUnitTestLicense" success="True" time="0.219" asserts="0">
+            <results>
+              <test-suite name="TestKeyUtil" success="True" time="0.141" asserts="0">
+                <results>
+                  <test-case name="NUnitTestLicense.TestKeyUtil.TestGetExpireDate" executed="True" success="True" time="0.109" asserts="3" />
+                  <test-case name="NUnitTestLicense.TestKeyUtil.TestGetInstalledKey" executed="True" success="True" time="0.016" asserts="4" />
+                  <test-case name="NUnitTestLicense.TestKeyUtil.TestInstallKey" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="NUnitTestLicense.TestKeyUtil.TestIsKeyInstalled" executed="True" success="True" time="0.000" asserts="5" />
+                  <test-case name="NUnitTestLicense.TestKeyUtil.TestUnInstallKey" executed="True" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="TestLicenseKey" success="True" time="0.047" asserts="0">
+                <results>
+                  <test-case name="NUnitTestLicense.TestLicenseKey.TestGetDaysRemaining" executed="True" success="True" time="0.016" asserts="3" />
+                  <test-case name="NUnitTestLicense.TestLicenseKey.TestGetInstalledKey" executed="True" success="True" time="0.000" asserts="5" />
+                  <test-case name="NUnitTestLicense.TestLicenseKey.TestInstallKey" executed="True" success="True" time="0.000" asserts="4" />
+                  <test-case name="NUnitTestLicense.TestLicenseKey.TestIsKeyCodeValid" executed="True" success="True" time="0.016" asserts="3" />
+                  <test-case name="NUnitTestLicense.TestLicenseKey.TestIsKeyExpired" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="NUnitTestLicense.TestLicenseKey.TestIsKeyInstalled" executed="True" success="True" time="0.000" asserts="5" />
+                  <test-case name="NUnitTestLicense.TestLicenseKey.TestUninstallKey" executed="True" success="True" time="0.016" asserts="3" />
+                </results>
+              </test-suite>
+              <test-suite name="TestRegistryEdit" success="True" time="0.016" asserts="0">
+                <results>
+                  <test-case name="NUnitTestLicense.TestRegistryEdit.TestDeleteKey" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="NUnitTestLicense.TestRegistryEdit.TestRead" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="NUnitTestLicense.TestRegistryEdit.TestWriteKey" executed="True" success="True" time="0.016" asserts="3" />
+                  <test-case name="NUnitTestLicense.TestRegistryEdit.TestWriteValue" executed="True" success="True" time="0.000" asserts="5" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
